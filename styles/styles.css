@@ -1,0 +1,219 @@
+@import "removal.css";
+@import "bootstrap-grid.min.css";
+@import "fonts.css";
+@import "icon.css";
+
+
+body {
+    background: #E3C9A4;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 35pt;
+    line-height: 43.13pt;
+}
+
+main {
+    padding-top: 13vh;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    opacity: 60%;
+    transition: 30ms;
+}
+
+/*----Header-------------------------------------------------*/
+header {
+    /*position: sticky;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1vh 8vw;
+    background: #C1C3CF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logotype {
+    width: 7%;
+}
+
+header .logotype-item {
+    width: 100%;
+}
+
+.logotype:hover {
+    opacity: 100%;
+}
+
+/*----Footer-------------------------------------------------*/
+footer {
+    padding: 4vh 8vw;
+    background: #C1C3CF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*----Main page-------------------------------------------------*/
+
+.logo_item {
+    width: 90%;
+}
+
+.first h1 {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 55.43pt;
+    line-height: 60.46pt;
+    font-weight: 700;
+}
+
+.text span {
+    display: flex;
+    width: 88%;
+    padding: 2vh 0;
+}
+
+.third span {
+    width: 63%;
+}
+
+.fourth span {
+    width: 100%;
+    justify-content: center;
+    padding: 3vh 0;
+}
+
+hr {
+    border: none;
+    border-top: 3px solid black;
+    width: 100%;
+}
+
+.show-reel {
+    background-color: black;
+}
+
+.reel {
+    cursor: pointer;
+    width: 100%;
+}
+
+/*----Portfolio-------------------------------------------------*/
+.NFT, .illustration, .animation {
+    padding: 10vh 0;
+}
+
+.NFT {
+    background: #7F8583;
+}
+
+.illustration {
+    background: #C1C3CF;
+}
+
+.animation {
+    background: #A47154;
+}
+
+.gif_item {
+    width: 100%;
+    border-radius: 8%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2vh 1vw;
+}
+
+
+.NFT h2, .illustration h2, .animation h2 {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 54.2pt;
+    line-height: 55pt;
+    text-transform: uppercase;
+
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    list-style-image: url("../media/img/ul-symbol.svg");
+    justify-content: center;
+    padding-left: 2vw;
+
+}
+
+.lets {
+    color: white;
+}
+
+/*----Contacts-----------------------------------*/
+.cont{
+    margin: 15vh 0;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cont i{
+    font-size: 100px;
+}
+
+.cont a{
+    opacity: 1;
+}
+
+.cont i:hover:before {
+    text-decoration: none;
+    opacity: 1;
+    text-shadow: -13px 7px #D6BC99;
+    color: white;
+}
+
+.collaboration-arrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.collaboration-arrow img {
+    margin-left: 1vw;
+}
+
+.collaboration p {
+    font-size: 54.92pt;
+    line-height: 70pt;
+}
+
+.collaboration span {
+    font-size: 34pt;
+    line-height: 60pt;
+}
+
+.collaboration .gmail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20vh;
+}
+
+.collaboration a:hover {
+    color: black;
+    opacity: 100%;
+    font-size: 34pt;
+}
+
+.link-gmail {
+    padding-left: 1%;
+}
